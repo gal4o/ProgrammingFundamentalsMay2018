@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(238, 238, 238);
+  }
+  
+  img {
+    background: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.25)
+  }
+
+  header {
+    font-family: "Georgia", sans-serif;
+    size: 3em;
+    text-transform: uppercase;
+    border-bottom: 3px solid black;
+  }
+
+  article {
+    font-family: "Georgia", sans-serif;
+    float: left;
+    width: 70%;
+  }
+
+  .float-left {
+    float: left;
+    width: 50%;
+}
+
+.float-right {
+  float: right;
+  width: 50%;
+}
+
+  aside {
+    float: right;
+    width: 20%;
+}
